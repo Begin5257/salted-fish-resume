@@ -3,8 +3,6 @@
 
 ## 目录结构
 
-```src/```里含有一个TodoMVC的示例代码，```npm start```后在[http://localhost:5959/](http://localhost:5959/)可查看Demo    
-
 ```
 src/
 ├── index.html
@@ -52,8 +50,3 @@ $ npm start
 ```
 $ npm run build
 ```
-
-## 项目负责前端
-
-Beginning
-
