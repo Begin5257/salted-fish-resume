@@ -9,9 +9,7 @@ const initialState = [{
 export default handleActions({
   'add click' (state,action) {
     return [{
-      count: state.map(home => {
-        home.count++
-      }),
+      count:state[0].count+1,
       text: action.payload
     },...state]
   },
@@ -19,7 +17,8 @@ export default handleActions({
     return [{
       submit: {
         text: state[0].text
-      }
+      },
+      count: state[0].count+1
     }]
   }
 }, initialState)

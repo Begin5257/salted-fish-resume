@@ -1,8 +1,9 @@
 import React, { Component, PropTypes } from 'react'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
-import Header from '../../components/Header'
+import TodoHeader from '../../components/TodoHeader'
 import MainSection from '../../components/MainSection'
+import Header from '../../components/Header'
 import * as TodoActions from '../../actions/todos'
 import style from './style.less'
 
@@ -11,7 +12,8 @@ class App extends Component {
     const { todos, actions, children } = this.props
     return (
       <div className={style.normal}>
-        <Header addTodo={actions.addTodo} />
+        <Header></Header>
+        <TodoHeader addTodo={actions.addTodo} />
         <MainSection todos={todos} actions={actions} />
         {children}
       </div>
