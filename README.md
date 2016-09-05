@@ -1,14 +1,7 @@
 
 # 咸鱼cv
 
-- 面向用户： 学生消费者
-
-
-
-
 ## 目录结构
-
-```src/```里含有一个TodoMVC的示例代码，```npm start```后在[http://localhost:5959/](http://localhost:5959/)可查看Demo    
 
 ```
 src/
@@ -20,7 +13,7 @@ src/
 ├── components/     业务组件
 ├── constants/      统一导出一些必要的常量
 ├── containers/
-├── middleware/     中间件(如果需要)
+├── middleware/     中间件
 ├── reducers/
 └── store/
 ```
@@ -28,7 +21,6 @@ src/
 ## 涉及技术栈 (RRRW)
 
 - [x] [React](https://facebook.github.io/react/)
-
 - [x] [Redux](https://github.com/reactjs/redux)
 - [x] [React Router Redux](https://github.com/reactjs/react-router-redux)
 - [x] [Webpack](https://webpack.github.io)
@@ -38,9 +30,8 @@ src/
 - [x] [PostCSS](https://github.com/postcss/postcss)
 - [x] [CSS modules](https://github.com/outpunk/postcss-modules)
 - [x] TodoMVC 示例
-- [ ] 还有哪些你认为有价值的优化点？随时联系@半边
 
-## 安装(如果还需要的话)
+## 安装
 
 ```
 $ npm install
@@ -57,13 +48,3 @@ $ npm start
 ```
 $ npm run build
 ```
-
-## 项目负责前端
-
-Beginning
-
-## 项目合作角色
-
-产品：小易
-后端：Beginning
-设计：雷欧
